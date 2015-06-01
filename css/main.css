@@ -175,7 +175,47 @@ header::after {
   display:block;
   text-align:center;
   line-height:70px;
-  padding:10px 55px;
+  padding:10px 40px;
+}
+.pelicula ~ .caja ul li a,
+.pelicula ~ .caja p.timePosted,
+.pelicula ~ .caja p.tweet,
+.pelicula ~ .caja p.interact {
+  display:inline;
+  font-size:12px;
+}
+.pelicula ~ .caja {
+  max-width:400px;
+  margin:0 auto;
+  float:none;
+}
+.pelicula ~ .caja *{
+  padding:0;
+  margin:0;
+  line-height: 20px;
+}
+.pelicula ~ .caja ul {
+  list-style:none;
+}
+.pelicula ~ .caja ul li {
+  display:block;
+  padding:0 10px;
+  margin:10px;
+  background:rgba(255,255,255,.13);
+  border-radius:3px;
+}
+.pelicula ~ .caja ul li img{
+  width:11px;
+}
+.pelicula ~ .caja p.timePosted {
+  display:block;
+  padding:0 10px;
+}
+.pelicula ~ .caja p.interact a {
+  padding:0 10px;
+}
+.pelicula ~ .caja p.interact {
+  display:block;
 }
 .clear {
   clear:both;
